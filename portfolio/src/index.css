@@ -257,6 +257,12 @@ button.react-multiple-carousel__arrow:hover {
   padding: 3rem 2rem;
 }
 
+.certificates-section h2 {
+  background-color: var(--primary-bg-color);
+  padding: 10px;
+  border-radius: 10px;
+}
+
 .certificates-container {
   display: flex;
   flex-wrap: wrap;
@@ -352,9 +358,10 @@ button.react-multiple-carousel__arrow:hover {
   border: none;
   border-radius: 5px;
   padding: 15px 30px;
+  cursor: pointer;
 }
 
-.mail button a {
+.mail a button {
   color: var(--primary-bg-color);
   text-decoration: none;
   font-size: 1.8rem;

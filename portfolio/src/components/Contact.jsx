@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import emailjs from '@emailjs/browser';
 import '../index.css';
-import resume from '../assets/hello.pdf';
+import resume from '../assets/Resume.pdf';
 
 const Contact = () => {
   const [form, setForm] = useState({ name: '', email: '', message: '', rating: 0 });
@@ -40,7 +40,7 @@ const Contact = () => {
       <div className="contact-content">
         <div className="sidebar">
           <div className='mail'>
-            <button><a href={resume}>Download CV📩</a></button>
+            <a href={resume}><button>Download CV📩</button></a>
           </div>
           <div className="reach">
             <h1>Reach ME ⬇️</h1>

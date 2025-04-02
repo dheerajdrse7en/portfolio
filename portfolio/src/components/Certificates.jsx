@@ -6,21 +6,21 @@ const certificates = [
     title: 'Google Cloud Associate',
     image: 'https://via.placeholder.com/300', // Replace with actual certificate image URL
     description: 'Completed the Google Cloud Associate Engineer certification.',
-    link: 'https://www.credential.net/example'
+    link: ''
   },
   {
     id: 2,
     title: 'AWS Certified Solutions Architect',
     image: 'https://via.placeholder.com/300',
     description: 'Earned AWS Certified Solutions Architect – Associate certification.',
-    link: 'https://www.credly.com/example'
+    link: ''
   },
   {
     id: 3,
     title: 'React Developer Certification',
     image: 'https://via.placeholder.com/300',
     description: 'Certified React Developer from Meta.',
-    link: 'https://www.udacity.com/example'
+    link: ''
   }
 ];
 
