@@ -57,23 +57,11 @@ const Skills = () => {
           <p>ReactJS</p>
         </div>
         <div className="skill-item">
-          <img src="https://img.icons8.com/color/500/nextjs.png" alt="next-js"/>
-          <p>NextJS</p>
-        </div>
-        <div className="skill-item">
           <img src="https://img.icons8.com/fluency/500/tailwind_css.png" alt="tailwind-css"/>
           <p>Tailwind CSS</p>
         </div>
       </div>
       <div className={`skills-content ${active === 'backend' ? 'active' : ''}`}>
-        <div className="skill-item">
-          <img src="https://img.icons8.com/fluency/500/node-js.png" alt="node-js" />
-          <p>NodeJS</p>
-        </div>
-        <div className="skill-item">
-          <img src="https://img.icons8.com/fluency/500/express-js.png" alt="express-js" />
-          <p>ExpressJS</p>
-        </div>
         <div className="skill-item">
           <img src="https://img.icons8.com/color/500/mongodb.png" alt="mongodb" />
           <p>MongoDB</p>

@@ -252,69 +252,6 @@ button.react-multiple-carousel__arrow:hover {
   background-color: hsl(0, 0%, 30%);
 }
 
-.certificates-section {
-  text-align: center;
-  padding: 3rem 2rem;
-}
-
-.certificates-section h2 {
-  background-color: var(--primary-bg-color);
-  padding: 10px;
-  border-radius: 10px;
-}
-
-.certificates-container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 2rem;
-  margin-top: 1.5rem;
-}
-
-.certificate-card {
-  background-color: var(--secondary-bg-color);
-  color: var(--primary-text-color);
-  border-radius: 10px;
-  padding: 1rem;
-  width: 300px;
-  text-align: center;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-  transition: transform 0.3s ease;
-}
-
-.certificate-card:hover {
-  transform: scale(1.05);
-}
-
-.certificate-image {
-  width: 100%;
-  border-radius: 10px;
-  height: auto;
-}
-
-.view-certificate {
-  display: inline-block;
-  margin-top: 10px;
-  padding: 8px 15px;
-  background-color: var(--accent-color);
-  color: white;
-  text-decoration: none;
-  border-radius: 5px;
-  transition: background-color 0.3s ease;
-}
-
-.view-certificate:hover {
-  background-color: var(--accent-hover-color);
-}
-
-@media (max-width: 768px) {
-  .certificates-container {
-    flex-direction: column;
-    align-items: center;
-  }
-}
-
-
 .contact-section {
   margin-bottom: 2rem;
   padding: 2rem;

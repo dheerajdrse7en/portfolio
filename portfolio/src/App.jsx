@@ -2,7 +2,6 @@ import Navbar from './components/Navbar';
 import About from './components/About';
 import Skills from './components/Skills';
 import Projects from './components/Projects';
-import Certificates from './components/Certificates';
 import Contact from './components/Contact';
 import videoBG from './assets/bg-video.mp4';
 import './App.css';
@@ -18,7 +17,6 @@ function App() {
         <About />
         <Skills />
         <Projects />
-        <Certificates />
         <Contact />
       </main>
     </div>

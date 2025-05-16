@@ -10,7 +10,7 @@ const Projects = () => {
       img: 'https://fliplet.com/wp-content/uploads/2024/02/fliplet_task_management_image.webp', 
       description: 'A task management platform for leaders and their teams. Streamline collaboration, and achieve your goals together.', 
       tech:'TECH: NextJS, MongoDB',
-      goto: 'https://github.com/dheerajdrse7en',
+      goto: 'https://github.com/dheerajdrse7en/Task-Manager',
     },
     { 
       id: 2, 
